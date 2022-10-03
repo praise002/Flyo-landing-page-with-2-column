@@ -1,4 +1,4 @@
-# Flyo=landing-page
+# Flyo-landing-page
 
 ## Built with:
 - HTML
