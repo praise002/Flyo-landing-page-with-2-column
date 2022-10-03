@@ -89,6 +89,7 @@ input[type='text']{
     padding-bottom: 10px;
     margin-bottom: 10px;
     outline: 0;
+    /* border: 0; */
     /* overflow: scroll; */
 }
 

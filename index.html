@@ -53,7 +53,7 @@
                     Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.
                 </p>
                 <form class="action action--row">
-                    <input type="text" name="email" aria-label="email" placeholder="Enter your email...">
+                    <input type="text" name="email" pattern=".+@email\.com" required minlength="4" maxlength="20" aria-label="email" placeholder="Enter your email...">
                     <button class="btn btn--row" type="submit">Get Started</button>
                 </form>
             </div>
@@ -116,7 +116,7 @@
             <!-- Child-2 -->
             <div class="early-access__action">
                 <form class="action action--column">
-                    <input type="text" name="email" aria-label="email" placeholder="Enter your email...">
+                    <input type="text" pattern=".+@email\.com" required minlength="4" maxlength="20" name="email" aria-label="email" placeholder="Enter your email...">
                     <button class="btn" type="submit">Get Started</button>
                 </form>
             </div>
