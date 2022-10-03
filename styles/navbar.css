@@ -7,7 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: ;
+    color: var(--very-dark-blue);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar__flyo{

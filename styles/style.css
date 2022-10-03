@@ -5,6 +5,19 @@
 
 /* ----Article---- */
 
+.article--1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    .article--1{
+        margin: 0;
+    }
+}
+
 .article{
     color: var(--very-dark-blue);
     display: flex;
@@ -19,10 +32,6 @@
         text-align: start;
     }
 }
-
-/* .article--start{
-    text-align: start;
-} */
 
 .illustration__container{
     width: 80vw;
@@ -54,13 +63,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 60px;
 }
 
 @media screen and (min-width: 1024px) {
     .article-2{
         background-image: url(/bg/bg-curve-desktop.svg);
+        margin-bottom: 0;
     }
 }
+
 .article__content--start p{
     text-align: start;
 }
