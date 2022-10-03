@@ -18,7 +18,7 @@ body{
     }
 }
 
-h1, h2, h3, h4{
+h1, h2, h3{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
@@ -39,6 +39,14 @@ h2{
 
 h3{
     font-size: 1.8rem;
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    h3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 button{
@@ -58,3 +66,10 @@ li{
     list-style: none;
 }
 
+footer{
+    background: var(--very-dark-blue);
+    color: #fff;
+    padding: 50px 20px;
+}
+
+/* TODO: change h2 to h1 and h2 to h3 work on d desktop size */

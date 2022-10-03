@@ -194,3 +194,130 @@ input[type='text']{
 .flyo-link{
     color: var(--moderate-cyan);
 }
+
+/* ----Early access---- */
+
+.early-access{
+    background: var(--desaturated-blue);
+    text-align: center;
+    color: #fff;
+    padding: 40px 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .early-access{
+        display: flex;
+        text-align: start;
+    }
+
+    .early-access__content{
+        flex: 1;
+    }
+
+    .early-access__content p{
+        max-width: 501px;
+    }
+    
+    .early-access__action{
+        flex: 1;
+    }
+
+    .action--column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .early-access__action input{
+        margin-right: 0;
+        align-self: flex-end;
+        width: 100%;
+    }
+
+    .early-access__action .btn{
+        width: 30%;
+        margin-top: 10px;
+    }
+}
+
+.early-access .btn{
+    border-radius: 0;
+}
+
+/* Footer */
+
+@media screen and (min-width: 1024px) {
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 1.5rem;
+        padding: 100px 50px;
+        column-gap: 20px;
+    }
+
+    .footer__left {
+        margin-top: -50px;
+    }
+}
+
+.footer-image {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-image{
+        margin-bottom: 15px;
+    }
+}
+
+.footer__contact{
+    display: flex;
+}
+
+.footer__contact img{
+    margin-right: 10px;
+}
+
+.footer--phone{
+    margin-bottom: 10px;
+}
+
+.footer--email{
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer--email{
+        margin-bottom: 0;
+    }
+}
+
+.footer li{
+    margin-bottom: 10px;
+}
+
+.footer--contact-us{
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer--contact-us{
+        margin-top: 0;
+    }
+}
+
+/* Social-icons*/
+
+.social-icons{
+    text-align: center;
+}
+
+.fa-brands{
+    border: 1px solid var(--light-gray);
+    border-radius: 80%;
+    color: #fff;
+    cursor: pointer;
+    padding: 7px;
+    margin-right: 5px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
