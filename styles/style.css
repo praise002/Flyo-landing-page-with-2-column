@@ -137,6 +137,11 @@ input[type='text']{
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 30px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background: rgb(141, 141, 194);
 }
 
 @media screen and (min-width: 1024px) {
@@ -307,6 +312,11 @@ input[type='text']{
 
 .footer li{
     margin-bottom: 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+.footer li:hover{
+    color: var(--bright-blue);
 }
 
 .footer--contact-us{
@@ -323,15 +333,20 @@ input[type='text']{
 
 .social-icons{
     text-align: center;
+    cursor: pointer;
 }
 
 .fa-brands{
     border: 1px solid var(--light-gray);
     border-radius: 80%;
     color: #fff;
-    cursor: pointer;
+    /* cursor: pointer; */
     padding: 7px;
     margin-right: 5px;
     margin-top: 10px;
-    transition: all 0.5s;
+    transition: all 0.25s;
+}
+
+.fa-brands:hover{
+    color: var(--bright-blue);
 }
